@@ -115,7 +115,7 @@ function Header() {
 
         {/* Mobile nav (dropdown) */}
         {isMobileMenuOpen && (
-          <div className="w-1/2 ml-62">
+          <div className="w-1/2 ml-38">
           <ul className="md:hidden mt-4 flex flex-col gap-4 text-sm font-semibold  font-[Inter] ">
             {navItems.map((item) =>
               item.active ? (
